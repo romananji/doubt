@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const {addDays} = require('date-fns')
+const addDays = require('date-fns/addDays')
 
 app.get('/', function (request, response) {
   let date = new Date()
